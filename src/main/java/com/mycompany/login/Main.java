@@ -30,13 +30,13 @@ public class Main {
         String cellPhone = scanner.nextLine();
 
         // Create Login object
-*/        Login login = new Login(firstName, lastName, username, password, cellPhone);
+        Login login = new Login(firstName, lastName, username, password, cellPhone);
 
         // Attempt registration
         System.out.println("\n" + login.registerUser());
-/*
+
         // Only proceed to login if registration was successful
-        if (login.checkUserName() && login.checkPasswordComplexity() && login.checkCellPhoneNumber()) {
+*/        if (login.checkUserName() && login.checkPasswordComplexity() && login.checkCellPhoneNumber()) {
             System.out.println("\n=== Login ===");
 
             System.out.print("Enter username: ");
@@ -47,7 +47,7 @@ public class Main {
 
             System.out.println("\n" + login.returnLoginStatus(enteredUsername, enteredPassword));
         }
-
+/*
         scanner.close();
     }
 }
