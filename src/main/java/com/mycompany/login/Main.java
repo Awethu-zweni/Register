@@ -25,16 +25,16 @@ public class Main {
 
         System.out.print("Enter password (8+ chars, capital, number, special character): ");
         String password = scanner.nextLine();
-*/
+
         System.out.print("Enter cell phone number (e.g. +27838968976): ");
         String cellPhone = scanner.nextLine();
-/*
+
         // Create Login object
-        Login login = new Login(firstName, lastName, username, password, cellPhone);
+*/        Login login = new Login(firstName, lastName, username, password, cellPhone);
 
         // Attempt registration
         System.out.println("\n" + login.registerUser());
-
+/*
         // Only proceed to login if registration was successful
         if (login.checkUserName() && login.checkPasswordComplexity() && login.checkCellPhoneNumber()) {
             System.out.println("\n=== Login ===");
