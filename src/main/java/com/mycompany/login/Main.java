@@ -11,15 +11,15 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-*/
+
         System.out.println("=== Registration ===");
-/*
+*/        
         System.out.print("Enter first name: ");
         String firstName = scanner.nextLine();
 
         System.out.print("Enter last name: ");
         String lastName = scanner.nextLine();
-
+/*
         System.out.print("Enter username (must contain _ and be max 5 characters): ");
         String username = scanner.nextLine();
 
