@@ -10,14 +10,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        */
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("=== Registration ===");
 
         System.out.print("Enter first name: ");
         String firstName = scanner.nextLine();
-/*
+*/
         System.out.print("Enter last name: ");
         String lastName = scanner.nextLine();
 
@@ -26,7 +25,7 @@ public class Main {
 
         System.out.print("Enter password (8+ chars, capital, number, special character): ");
         String password = scanner.nextLine();
-
+/*
         System.out.print("Enter cell phone number (e.g. +27838968976): ");
         String cellPhone = scanner.nextLine();
 
@@ -52,4 +51,3 @@ public class Main {
         scanner.close();
     }
 }
-*/
