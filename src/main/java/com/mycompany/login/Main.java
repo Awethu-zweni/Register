@@ -11,9 +11,9 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+*/
         System.out.println("=== Registration ===");
-
+/*
         System.out.print("Enter first name: ");
         String firstName = scanner.nextLine();
 
@@ -36,7 +36,6 @@ public class Main {
         System.out.println("\n" + login.registerUser());
 
         // Only proceed to login if registration was successful
-*/
         if (login.checkUserName() && login.checkPasswordComplexity() && login.checkCellPhoneNumber()) {
             System.out.println("\n=== Login ===");
 
@@ -48,7 +47,7 @@ public class Main {
 
             System.out.println("\n" + login.returnLoginStatus(enteredUsername, enteredPassword));
         }
-/*
+
         scanner.close();
     }
 }
